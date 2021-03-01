@@ -1,0 +1,76 @@
+Git Commands : 
+
+1.)git status
+shows modified files in working directory, staged for our next commit
+
+2.)git add filename
+adds a file as it looks now to our next commit (stage)
+
+3.)git reset filename
+unstage a file while retaining the changes in working directory
+
+4.)git diff
+diff of what is changed but not staged
+
+5.)git diff --staged
+diff of what is staged but not yet commited
+
+6.)git commit -m “message”
+commits our staged content as a new commit snapshot
+
+7.)git branch
+list your branches with * next to the currently active branch
+
+8.)git branch branch-name
+creates a new branch at the current commit
+
+9.)git checkout
+switches to another branch and checks it out into our working directory
+
+10.)git merge branch
+merge the specified branch’s history into the current one
+
+10.)git log
+show all commits in the current branch’s history
+
+11.)git init
+initializes an existing directory as a Git repository
+
+12.)git clone url
+retrieves an entire repository from a hosted location via URL
+
+13.)git remote add [alias]/[url]
+add a git URL as an alias
+
+14.)git fetch [alias]
+fetch down all the branches from that Git remote
+
+15.)git merge [alias]/[branch]
+merge a remote branch into our current branch to bring it up to date
+
+16.)git push [alias] [branch]
+Transmit local branch commits to the remote repository branch
+
+17.)git pull
+fetch and merge any commits from the tracking remote branch
+
+18.)git rm [file]
+delete the file from project and stage the removal for commit
+
+19.)git mv [existing-path] [new-path]
+change an existing file path and stage the move
+
+20.)git log --stat -M
+show all commit logs with indication of any paths that moved
+
+21.)git stash
+Save modified and staged changes
+
+22.)git stash list
+list stack-order of stashed file changes
+
+23.)git stash pop
+write working from top of stash stack
+
+24.)git stash drop
+discard the changes from top of stash stack
